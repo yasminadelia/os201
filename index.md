@@ -8,4 +8,4 @@ Currently, I'm a fourth semester student in Universitas Indonesia, majoring Comp
 This website is a project for Operating System course that I'm taking.
 
 ## More
-Click [here](URLSs/) for a collection of link to learn more about Operating Systems
+Click [here](URLs/) for a collection of link to learn more about Operating Systems

@@ -1,0 +1,26 @@
+Script started on Tue 02 Jun 2020 12:29:59 AM WIB
+]0;yasmin.adelia@badak: ~yasmin.adelia@badak:~$ PS1="$ "
+$ echo $GitHubUser
+yasminadelia
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200602-003059-d0f9-yasmin.adelia/> 
+$ PS1="\$(eval \$PSTAMP)"
+200602-003106-b74f-yasmin.adelia/> date
+Tue Jun  2 00:31:29 WIB 2020
+200602-003129-7e25-yasmin.adelia/> gpg2 --listk[K-keys
+/home/fasilkom/mahasiswa/y/yasmin.adelia/.gnupg/pubring.gpg
+-----------------------------------------------------------
+pub   4096R/6118C4A4 2020-06-01
+uid       [ultimate] Yasmin Adelia <yasminadelia@yahoo.co.id>
+sub   4096R/B1D76002 2020-06-01
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200602-003152-c652-yasmin.adelia/> exit
+exit
+
+Script done on Tue 02 Jun 2020 12:32:17 AM WIB
